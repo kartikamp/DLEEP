@@ -112,14 +112,17 @@
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="13dp" />
 
-            <EditText
-                android:id="@+id/profusnvaluesedit"
-                android:layout_width="170dp"
+            <TextView
+                android:id="@+id/profusnvalues"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="start"
-                android:hint="Bella Hadid"
-                tools:layout_editor_absoluteX="144dp"
-                tools:layout_editor_absoluteY="0dp"></EditText>
+                android:fontFamily="@font/montserratbold"
+                android:text="bellahadid"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="228dp"
+                tools:layout_editor_absoluteY="13dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -145,14 +148,17 @@
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="15dp" />
 
-            <EditText
-                android:id="@+id/profemailvaluesedit"
-                android:layout_width="170dp"
+            <TextView
+                android:id="@+id/profemailvalues"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="start"
-                android:hint="bella2in@gmail.com"
-                tools:layout_editor_absoluteX="144dp"
-                tools:layout_editor_absoluteY="0dp"></EditText>
+                android:fontFamily="@font/montserratbold"
+                android:text="bella2in@gmail.com"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="13dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -178,14 +184,17 @@
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="13dp" />
 
-            <EditText
-                android:id="@+id/profpwvaluesedit"
-                android:layout_width="170dp"
+            <TextView
+                android:id="@+id/profpwvalues"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="start"
-                android:hint="********"
-                tools:layout_editor_absoluteX="144dp"
-                tools:layout_editor_absoluteY="0dp"></EditText>
+                android:fontFamily="@font/montserratbold"
+                android:text="********"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="252dp"
+                tools:layout_editor_absoluteY="13dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -211,14 +220,17 @@
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="13dp" />
 
-            <EditText
-                android:id="@+id/profdobvaluesedit"
-                android:layout_width="170dp"
+            <TextView
+                android:id="@+id/profdobvalues"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="start"
-                android:hint="09/10/1996"
-                tools:layout_editor_absoluteX="144dp"
-                tools:layout_editor_absoluteY="0dp"></EditText>
+                android:fontFamily="@font/montserratbold"
+                android:text="09/10/1996"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="220dp"
+                tools:layout_editor_absoluteY="13dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
