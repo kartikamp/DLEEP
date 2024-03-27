@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectSleep</string>
+    <string name="textlanding">Revolutionize Your Sleep Experience</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Logout</string>
+</resources>
