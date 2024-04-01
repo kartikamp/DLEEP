@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutDisc"
+    android:layout_width="380dp"
+    android:layout_height="620dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/violetbox"
+    tools:layout_editor_absoluteX="15dp">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@null"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAllStories"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/brokenwhite">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/montserratregular"
+            android:text="Sounds"
+            app:tabTextColor="@color/white"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="Music" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tab_item_background"
+            android:text="Stories" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="Meditation" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <Button
+        android:id="@+id/buttonAllStories"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/tab_button_pressed"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="All"
+        android:textColor="@drawable/tab_button_colors"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ResumeStories"
+        app:layout_constraintEnd_toStartOf="@+id/buttonFairytale"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+        app:layout_editor_absoluteX="8dp"
+        app:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/buttonFairytale"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tab_button_pressed"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="Fairytale"
+        android:textColor="@drawable/tab_button_colors"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+        app:layout_editor_absoluteX="63dp"
+        app:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/buttonFolklore"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tab_button_pressed"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="Folklore"
+        android:textColor="@drawable/tab_button_colors"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+        app:layout_editor_absoluteX="123dp"
+        app:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/buttonLifestyle"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tab_button_pressed"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="Lifestyle"
+        android:textColor="@drawable/tab_button_colors"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+        app:layout_editor_absoluteX="195dp"
+        app:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/ResumeStories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="Resume Playing"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+
+    <ImageView
+        android:id="@+id/ThumbOne"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/cinderellathumbnail"
+        app:layout_constraintBottom_toTopOf="@+id/ResumeDescOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ResumeStories" />
+
+    <TextView
+        android:id="@+id/ResumeDescOne"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="14dp"
+        android:text="Cinderella and Four Knights is a fairy tale about a young girl named Cinderella who faces hardship after losing her parents. Living with her cruel stepmother and two arrogant stepsisters, her life changes when she meets four knights with different"
+        android:textColor="@color/brokenwhite"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/ThumbTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ThumbOne" />
+
+    <ImageView
+        android:id="@+id/ThumbTwo"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/junglethumbnail"
+        app:layout_constraintBottom_toTopOf="@+id/ResumeDescTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ResumeDescOne" />
+
+    <TextView
+        android:id="@+id/ResumeDescTwo"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="In Ruler of the Jungle, brave prince Leo journeys through a perilous jungle to prove himself as its rightful ruler. With the help of wise allies like an old owl and a playful monkey, he faces challenges and confronts a cunning tiger claiming dominance"
+        android:textColor="@color/brokenwhite"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/TaleStoriesTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ThumbTwo" />
+
+    <TextView
+        android:id="@+id/TaleStoriesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="Tale of The Woods"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ResumeDescTwo"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/SeeMoreStories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="See More"
+        android:textColor="@color/brokenwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ResumeDescTwo" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TaleStoriesTitle"
+        app:spanCount="2"
+        tools:listitem="@layout/item_row_stories" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,8 +6,10 @@ import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.Calendar;
@@ -16,6 +18,9 @@ public class RegistrasiActivity extends AppCompatActivity implements View.OnClic
 
     private EditText editTextDatepicker;
     private TextView textViewLogSign;
+
+    private Button button4;
+    private ImageView backarrowRegis;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +37,13 @@ public class RegistrasiActivity extends AppCompatActivity implements View.OnClic
 
         textViewLogSign = (TextView) findViewById(R.id.textViewLogSign);
         textViewLogSign.setOnClickListener(this);
+
+        button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(this);
+
+        backarrowRegis = (ImageView) findViewById(R.id.backarrowRegis);
+        backarrowRegis.setOnClickListener(this);
+
     }
 
     private void showDatePickerDialog() {
@@ -56,9 +68,13 @@ public class RegistrasiActivity extends AppCompatActivity implements View.OnClic
         int id = v.getId();
 
         if (id == R.id.textViewLogSign) {
-            Intent moveIntent = new Intent(RegistrasiActivity.this, LoginActivity.class);
+            Intent moveIntent = new Intent(RegistrasiActivity.this, com.example.dleep.LoginActivity.class);
             startActivity(moveIntent);
+        } else if (id == R.id.button4){
+            Intent moveIntent = new Intent(RegistrasiActivity.this, MainActivity.class);
+            startActivity(moveIntent);
+        } else if (id == R.id.backarrowRegis){
+            finish();
         }
-
     }
 }

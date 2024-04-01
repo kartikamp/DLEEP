@@ -24,7 +24,7 @@ public class LandingActivity extends AppCompatActivity implements View.OnClickLi
         int id = v.getId();
 
         if (id == R.id.button_landing) {
-            Intent moveIntent = new Intent(LandingActivity.this, SecondLandingActivity.class);
+            Intent moveIntent = new Intent(LandingActivity.this, com.example.dleep.SecondLandingActivity.class);
             startActivity(moveIntent);
         }
 }}

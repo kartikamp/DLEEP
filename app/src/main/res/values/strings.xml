@@ -5,5 +5,49 @@
     <string name="sign_up">Sign Up</string>
     <string name="edit">Edit</string>
     <string name="logout">Logout</string>
+    <string name="submit">Submit</string>
+    <string name="verify">Verify</string>
     <string name="savechanges">Save Changes</string>
+    <string name="isiprivacypolicy">
+        Welcome to DLEEP – your trusted sleep and meditation companion app.
+        Your privacy and the security of your personal data are of utmost
+        importance to us. This Privacy Policy is designed to inform you about
+        how we collect, use, and protect your personal information when you
+        use our app. By utilizing DLEEP, you consent to the collection and
+        use of information in accordance with this policy.
+    </string>
+    <string name="isiserviceguide">
+        Welcome to DLEEP, your trusted companion for sleep and
+        meditation! Here at DLEEP, we are proud to introduce you to a
+        holistic approach to enhancing the quality of your sleep and
+        meditation experience. This app is not just designed as a mere
+        sleep or meditation aid; DLEEP is a friend that will guide you
+        towards a more balanced life, with deeper sleep and calmer mind.
+    </string>
+    <string name="scrolltext">
+        Film "The Boy and The Heron" (atau "The Tale of The Princess Kaguya"
+        dalam judul aslinya) adalah film adaptasi dari cerita rakyat Jepang
+        yang terkenal, "The Tale of the Bamboo Cutter" atau "Kaguya-hime no Monogatari."
+        \n\n
+        Sinopsis film ini mengikuti kisah seorang petani yang menemukan seorang bayi perempuan yang
+        sangat kecil di dalam sebuah batang bambu. Bayi ini tumbuh dengan sangat cepat dan menjadi
+        seorang gadis muda yang cantik, dikenal sebagai Putri Kaguya. Keluarga petani tersebut
+        membesarkan Kaguya dengan penuh kasih sayang, namun Kaguya merasa terikat dengan takdirnya
+        yang sebenarnya sebagai putri dari bulan.
+
+        \n\n
+
+        Kaguya semakin terkenal karena kecantikannya, dan banyak pangeran yang datang untuk
+        meminangnya. Namun, Kaguya menolak mereka semua karena dia tahu bahwa takdirnya tidak ada
+        hubungannya dengan dunia manusia. Cerita ini menggambarkan perjuangan Kaguya antara
+        keinginannya untuk hidup sebagai manusia di Bumi dan takdirnya yang sebenarnya sebagai putri
+        dari bulan.
+
+        \n\n
+
+        Film ini dianggap sebagai salah satu karya masterpiece dari Studio Ghibli karena visualnya
+        yang memukau dan cerita yang mendalam tentang kehidupan, cinta, dan takdir.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
